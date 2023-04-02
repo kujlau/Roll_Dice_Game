@@ -11,59 +11,88 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
+    
+    
     <div class="container">
-      
-      <div class="left">
 
+      <!--player 1-->
+      <div class="left">
         <div class="score_glob_1">
           <div class="title_pl_1">
             <h1>PLAYER 1</h1>
-            <img src="images/led.png" alt="mark round player">
+            <img id="led_1" src="images/led_transp.png" alt="mark round player">
           </div>
           <h1 id="global_1">00</h1>
         </div>
-
         <div class="current_1">
           <h4>CURRENT</h4>
-          <h2 id="temp_1">00</h2>
+          <h2 id="round_1">00</h2>
         </div>
-
       </div>
       
+      <!--buttons-->
+      <!--button new game-->
       <div class="center">
-
         <button id="btn_new_game">
           <img src="images/plus.png" alt="new game icon">
           <h3>NEW GAME</h3>
         </button>
-
-        <img id="img_dices" src="images/dice5.png" alt="dice image">
-
+      <!--dice-->
+        <img id="img_dices" src="images/dice_5.png" alt="dice image">
+      <!--button roll dice-->
         <button id="btn_roll_dice">
           <img src="images/roll-icon.png" alt="new game icon">
           <h3>ROLL DICE</h3>
         </button>
+      <!--button hold-->  
         <button id="btn_hold">
           <img src="images/hold_icon.png" alt="new game icon">
           <h3>HOLD</h3>
         </button>
-
       </div>
       
+      <!--player 2-->
       <div class="right">
         <div class="score_glob_2">
           <div class="title_pl_2">
             <h1>PLAYER 2</h1>
-            <img src="images/led_transp.png" alt="mark round player">
+            <img id="led_2" src="images/led_transp.png" alt="mark round player">
           </div>
           <h1 id="global_2">00</h1>
         </div>
-
         <div class="current_2">
           <h4>CURRENT</h4>
-          <h2 id="temp_2">00</h2>
+          <h2 id="round_2">00</h2>
         </div>
       </div>
+
     </div>
+
+    <!--hidden windows-->
+    
+    <!--choice mode player-->
+    <div id="modes">
+      <button id="btn_one_player">
+        <h1>1 PLAYER</h1>
+      </button>
+      <h1>or</h1>
+      <button id="btn_two_players">
+        <h1>2 PLAYERS</h1>
+      </button>
+    </div>
+
+    <!--display winner-->
+    <div id="winner">
+      <h1 class="win_pl">PLAYER</h1>
+      <h2 id="num_win"></h1>
+      <h1 class="win">WIN</h1>
+    </div>
+    
+    <!--display if  player hold zero to global-->
+    <div id="hold_round_0">
+      <h1>ROLL DICE !!!!</h1>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
