@@ -9,6 +9,11 @@ function randNbr(){
 
 //_____________________________________________________________________________________VARIABLES
 
+const displayRules = document.getElementById('rules');
+displayRules.style.display = 'none';
+const buttonRules = document.getElementById('btn_rules');
+const buttonExit = document.getElementById('close');
+
 const displayHoldRound0 = document.getElementById('hold_round_0');
 displayHoldRound0.style.display = 'none';
 
@@ -69,6 +74,18 @@ buttonNewGame.addEventListener('click', (clickNewGame) => {
   roundList2 = [0];
   globalList2 = [0];
 })
+
+//_____________________________________________________________________FUNCTION RULES
+
+buttonRules.addEventListener('click', () => {
+  displayModes.style.display = 'none';
+  displayRules.style.display = 'flex';
+})
+
+buttonExit.addEventListener('click', () => {
+  displayRules.style.display = 'none';
+  displayModes.style.display = 'flex';
+})  
 
 //_____________________________________________________________________FUNCTION 1 PLAYER
 

@@ -72,13 +72,37 @@
     
     <!--choice mode player-->
     <div id="modes">
-      <button id="btn_one_player">
-        <h1>1 PLAYER</h1>
-      </button>
-      <h1>or</h1>
-      <button id="btn_two_players">
-        <h1>2 PLAYERS</h1>
-      </button>
+      <div class="wrap_btn_rules">
+        <button id="btn_rules">
+          <img src="images/icon_rules.png" alt=" button rules">
+          <h2> RULES</h2>
+        </button>
+      </div>
+      <div class="wrap_btn_players">
+        <button id="btn_one_player">
+          <h1>1 PLAYER</h1>
+        </button>
+        <h1>or</h1>
+        <button id="btn_two_players">
+          <h1>2 PLAYERS</h1>
+        </button>
+      </div>
+      
+    </div>
+
+    <!--rules-->
+    <div id="rules">
+      <h1><u>RULES</u></h1>
+      <p>The game includes 1 or 2 players on a single screen.<br>
+        Each player has a temporary score (current) and an overall score.<br>
+        At each turn, the player has his ROUND initialized to 0 and can roll a die as many times as he wishes.<br>
+        The result of a throw is added to current.<br>
+        During his turn, the player can decide at any time to:<br>
+        - Click on the “Hold” option, which sends the points of the current to the GLOBAL. It will then be the<br>
+        other player's turn.<br>
+        - Roll the dice. If he rolls a 1, his ROUND score is lost and his turn ends.<br>
+        The first player to reach 100 points wins the game.</p>
+      <button id="close">EXIT</button>
     </div>
 
     <!--display winner-->
