@@ -313,7 +313,7 @@ body{
 
 @media screen and (max-width: 640px){
   .container{
-    width: 80vw;
+    width: 90vw;
   }
   .left{
     width: 30%;
@@ -322,6 +322,9 @@ body{
     font-size: 5vw;
     margin: 0;
     margin-right: 2.2vw;
+  }
+  #led_1{
+    width: 2vw;
   }
   #global_1{
     font-size: 9vw;
@@ -336,7 +339,7 @@ body{
     font-size: 3vw;
   }
   #round_1{
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .center{
     width: 350px;
@@ -362,6 +365,9 @@ body{
     margin: 0;
     margin-right: 2.2vw;
   }
+  #led_2{
+    width: 2vw;
+  }
   #global_2{
     font-size: 9vw;
     margin-right: 9vw;
@@ -376,6 +382,6 @@ body{
     font-size: 3vw;
   }
   #round_2{
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }
