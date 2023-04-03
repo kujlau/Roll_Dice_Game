@@ -300,6 +300,7 @@ body{
   0px 8px 16px rgba(120,120,120,0.1);
 }
 #rules p{
+  font-size: 1vw;
   margin-left: 2vw;
   margin-right: 2vw;
 }
@@ -451,10 +452,11 @@ body{
   #rules{
     width: 90vw;
   }
-  /* #rules p{
+  #rules p{
+    font-size: 2vw;
     margin-left: 2vw;
     margin-right: 2vw;
-  } */
+  }
   #close{
     cursor: pointer;
     border:none;
