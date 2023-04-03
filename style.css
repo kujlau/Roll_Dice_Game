@@ -421,8 +421,9 @@ body{
 /*_______________________________________________________________________________HIDDEN WINDOWS*/
 
   #modes{
+    border: solid 1px;
     width: 70vw;
-    height: 25vh;
+    height: 20vh;
   }
   .wrap_btn_rules{
     display: flex;
@@ -444,11 +445,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30vw;
-    height: 10vh;
+    width: 27vw;
+    height: 8vh;
   }
   #btn_one_player h1, #btn_two_players h1 {
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .or{
     font-size: 4vw;
