@@ -448,6 +448,23 @@ body{
     width: 3vw;
     margin-right: 5%;
   }
+  #rules{
+    width: 80vw;
+  }
+  /* #rules p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+  } */
+  #close{
+    cursor: pointer;
+    border:none;
+    background-color: #dc3545;
+    color: white;
+    text-align: center;
+    width: 10vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
   #img_dices{
     width: 20vw;
     top: 30vh;
@@ -496,21 +513,5 @@ body{
   #round_2{
     font-size: 5vw;
   }
-  #rules{
-    width: 60vw;
-  }
-  /* #rules p{
-    margin-left: 2vw;
-    margin-right: 2vw;
-  } */
-  #close{
-    cursor: pointer;
-    border:none;
-    background-color: #dc3545;
-    color: white;
-    text-align: center;
-    width: 10vw;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-  }
+  
 }
