@@ -259,10 +259,9 @@ body{
   background-image: url('images/bgmodwin.jpg');
   background-position: center;
   position: absolute;
-  width: 40vw;
 }
 #rules p{
-  font-size: 1vw;
+  font-size: 3vw;
   margin-left: 2vw;
   margin-right: 2vw;
 }
@@ -452,9 +451,6 @@ body{
   }
   .or{
     font-size: 4vw;
-  }
-  #rules{
-    width: 80vw;
   }
   #rules p{
     font-size: 3vw;
