@@ -245,6 +245,9 @@ body{
 #btn_one_player h1, #btn_two_players h1{
   font-size: 2vw;
 }
+.or{
+  font-size: 2vw;
+}
 #btn_two_players{
   color: black;
 }
